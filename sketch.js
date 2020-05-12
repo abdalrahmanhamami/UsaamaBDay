@@ -33,11 +33,11 @@ function draw() {
 	
   
   
-  if (getAudioContext().state !== 'running'){
-    fill("#fff")
-    text('What day is it?', width/2, height/2);
-  } else {
-    if (random(1) < frequency) {
+//   if (getAudioContext().state !== 'running'){
+//     fill("#fff")
+//     text('What day is it?', width/2, height/2);
+//   } else {
+//     if (random(1) < frequency) {
       
       
       var theTexts = ["HAPPY","BIRTHDAY","USAAMA", "30th", "May"]
